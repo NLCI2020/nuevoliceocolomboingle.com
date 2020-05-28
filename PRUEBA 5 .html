@@ -1,0 +1,36 @@
+<HTML>
+	<HEAD>
+	<TITLE>PROTOTIPO1.0</TITLE>
+	</HEAD>
+	<BODY onload="sin_titulo();">
+
+		<SCRIPT type="text/javascript">
+			
+
+			function sin_titulo() {
+				var n1, n2, p;
+				n1 = 0;
+				n2 = 0;
+				p = 0;
+				document.write(" ESCRIBE TU NUMERO DE DOCUMENTO: ",'<BR/>');
+				n1 = Number(prompt());
+				document.write(" QUE GRADO CURSAS",'<BR/>');
+				n2 = Number(prompt());
+				p = n1;
+				document.write(" TUS NOTAS SON:",'<BR/>');
+				if (p==1006123308) {
+					document.write(" ESPAÑOL 5.0"," SOCIALES 3.1",'<BR/>');
+				} else {
+					document.write("",'<BR/>');
+				}
+				p = n1;
+				if (p==1110590813) {
+					document.write(" MATEMATICAS 5.6"," HISTORIA 3.4",'<BR/>');
+				} else {
+					document.write("",'<BR/>');
+				}
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
